@@ -80,7 +80,6 @@ class MQ():
     def MQGetGasPercentage(self, rs_ro_ratio, gas_id):
           if (gas_id == self.GAS_CH4):
             return self.MQGetPercentage(rs_ro_ratio, self.CH4Curve)
-        return 0
 
 
     def MQGetPercentage(self, rs_ro_ratio, pcurve):
